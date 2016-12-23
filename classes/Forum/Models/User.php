@@ -1,11 +1,12 @@
 <?php declare( strict_types = 1 );
+
+namespace Forum\Models;
+
 /**
  *  @package Forum\Models\User
  *  @file User.php
  *  @brief Profile and registration
  */
-namespace Forum\Models;
-
 class User extends Model {
 	
 	/**
