@@ -60,26 +60,6 @@ class Avatar extends Singleton {
 			\imagecopy( $monster, $im, 0, 0, 0, 0, 120, 120 );
 			\imagedestroy( $im );
 			
-			switch( $part ) {
-				case 'body':
-					
-					break;
-					
-				case 'arms':
-					break;
-					
-				case 'eyes':
-					break;
-					
-				case 'hair':
-					break;
-					
-				case 'mouth':
-					break;
-					
-				case 'legs':
-					break;
-			}
 			// Body color
 			if ( $part == 'body' ){
 				$color = 
