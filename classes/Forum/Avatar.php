@@ -1,14 +1,19 @@
 <?php declare( strict_types = 1 );
+
+namespace Forum;
+
 /**
  *  @package Forum\Avatar
  *  @file Avatar.php
  *  @brief User profile image generator
  */
-namespace Forum;
-
 class Avatar extends Singleton {
 	
 	private static $starter	= 0;
+	
+	const DEFAULT_SEED	= '';
+	
+	const DEFAULT_SIZE	= 40;
 
 	/**
 	 *  Generate monster avatar
@@ -24,8 +29,8 @@ class Avatar extends Singleton {
 	 */
 	public static function generate(  
 		string	$src,
-		string	$seed	= '', 
-		int	$size	= 40
+		string	$seed	= self::DEFAULT_SEED, 
+		int	$size	= self::DEFAULT_SIZE
 	) {
 		// Seed random number
 		static::seed( $seed );
