@@ -1,9 +1,12 @@
 <?php declare( strict_types = 1 );
-/**
- *  @file Data.php Database connection helper 
- */
+
 namespace Forum\Models;
 
+/**
+ *  @package Forum\Models\Data
+ *  @file 
+ *  @brief Data.php Database connection helper 
+ */
 final class Data {
 	
 	private static $db_types	= array();
