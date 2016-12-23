@@ -119,8 +119,7 @@ class Router extends Singleton {
 	 *  @param string $path Requested URL
 	 *  @param callable $handler Error route function
 	 */
-	 */
-	public addErrorRoute(
+	public function addErrorRoute(
 		int		$code,
 		callable	$handler
 	) {
