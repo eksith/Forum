@@ -122,10 +122,9 @@ class Router extends Singleton {
 	 */
 	public addErrorRoute(
 		int		$code,
-		string		$path, 
 		callable	$handler
 	) {
-		$this->error_routes[$code] = array( $path, $handler );
+		$this->error_routes[$code] = $handler;
 	}
 	
 	/**
@@ -162,10 +161,11 @@ class Router extends Singleton {
 			}
 		}
 		
+		// Still didn't get a hit? Call in 404
 		if ( !$found ) {
 			return isset( $this->error_routes[404] ) ? 
-				call_user_func_array(
-					$this->error_routes[404][1],
+				call_user_func(
+					$this->error_routes[404],
 					$path
 				): 
 				null;
