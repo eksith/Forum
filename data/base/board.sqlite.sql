@@ -1,4 +1,5 @@
-PRAGMA foreign_keys = ON;
+PRAGMA encoding = utf8;
+PRAGMA foreign_keys = OFF;
 
 -- Board tables
 CREATE TABLE categories (
@@ -281,6 +282,7 @@ BEGIN
 END;
 
 PRAGMA journal_mode = WAL;
+PRAGMA foreign_keys = ON;
 
 INSERT INTO categories ( id, title, slug ) VALUES ( 1, 'Entertainment', 'entertainment' );
 INSERT INTO boards ( id, title, slug, category_id, description ) VALUES ( 1, 'Anime', 'anime', 1, 'Japanese animation' );
@@ -290,6 +292,7 @@ INSERT INTO posts (
 ) VALUES ( 1, 'A post about anime', 'a-post-about-anime', 1, 
 	'fda08521718568cb2dda343edde42e5e170aed1ecc4dc0c8', 
 	'fda08521718568cb2dda343edde42e5e170aed1ecc4dc0c8', 
-	'192.168.1.1', 'I\'m a big fan of Initial D', 
-	'<p>I\'m a big fan of Initial D</p>'
+	'192.168.1.1', "I'm a big fan of Initial D", 
+	"<p>I'm a big fan of Initial D</p>"
 );
+
