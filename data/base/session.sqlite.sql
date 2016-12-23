@@ -1,3 +1,6 @@
+PRAGMA encoding = utf8;
+PRAGMA foreign_keys = OFF;
+
 CREATE TABLE sessions (
 	id TEXT PRIMARY KEY NOT NULL,
 	skey TEXT DEFAULT '',			-- Composite key
