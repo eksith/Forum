@@ -1,0 +1,116 @@
+{
+    "MSG_DISALLOWED": [
+        "error_disallowed",
+        "Method not allowed",
+        "text",
+        ""
+    ],
+    "MSG_FORM_EXP": [
+        "error_csrf_failure",
+        "Form expired",
+        "text",
+        ""
+    ],
+    "MSG_LOGIN_FIRST": [
+        "error_auth_needed",
+        "Please login first",
+        "text",
+        ""
+    ],
+    "MSG_LOGIN_WAIT": [
+        "error_login_wait",
+        "Please wait a while before trying again",
+        "text",
+        ""
+    ],
+    "MSG_UPLOAD_INVALID": [
+        "error_upload_invalid",
+        "Upload invalid",
+        "text",
+        ""
+    ],
+    "MSG_UPLOAD_ERROR": [
+        "error_upload_error",
+        "Upload processing error",
+        "text",
+        ""
+    ],
+    "MSG_UPLOAD_NOFILE": [
+        "error_upload_empty",
+        "Uploaded file is empty",
+        "text",
+        ""
+    ],
+    "MSG_UPLOAD_SIZE": [
+        "error_upload_big",
+        "Uploaded file too large",
+        "text",
+        ""
+    ],
+    "MSG_DATA_ERROR": [
+        "error_data_error",
+        "Database error has occured",
+        "text",
+        ""
+    ],
+    "MSG_TITLE_SIZE": [
+        "error_post_title",
+        "Title size is invalid",
+        "text",
+        ""
+    ],
+    "MSG_POST_SIZE": [
+        "error_post_size",
+        "Post size is too large",
+        "text",
+        ""
+    ],
+    "MSG_USER": [
+        "error_user_missing",
+        "Username is required",
+        "text",
+        ""
+    ],
+    "MSG_USER_INV": [
+        "error_user_invalid",
+        "Username is invalid",
+        "text",
+        ""
+    ],
+    "MSG_PASS": [
+        "error_pass_missing",
+        "Password is required",
+        "text",
+        ""
+    ],
+    "MSG_PASS_MATCH": [
+        "error_pass_mismatch",
+        "Passwords must match",
+        "text",
+        ""
+    ],
+    "MSG_BIO_SIZE": [
+        "error_profile_size",
+        "Bio size is too large",
+        "text",
+        ""
+    ],
+    "MSG_FILE_ROOT": [
+        "error_file_root",
+        "Invalid file root",
+        "text",
+        ""
+    ],
+    "MSG_RATE_LIMIT": [
+        "error_request_rate",
+        "Requesting too fast",
+        "text",
+        ""
+    ],
+    "MSG_NOTFOUND": [
+        "error_not_found",
+        "Couldn&#039;t find the file you&#039;re looking for.",
+        "area",
+        ""
+    ]
+}
