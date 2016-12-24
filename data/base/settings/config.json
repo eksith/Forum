@@ -1,0 +1,128 @@
+{
+    "SITE_TITLE": [
+        "config_site_title",
+        "Section 5",
+        "text",
+        ""
+    ],
+    "SITE_FOOTER": [
+        "config_site_footer",
+        "&copy; 2017 Section 5. All rights reserved.",
+        "text",
+        ""
+    ],
+    "MAX_TITLE": [
+        "config_max_title",
+        "80",
+        "num",
+        ""
+    ],
+    "MAX_USER": [
+        "config_max_user",
+        "20",
+        "num",
+        ""
+    ],
+    "MIN_USER": [
+        "config_min_user",
+        "2",
+        "num",
+        ""
+    ],
+    "MAX_PASS": [
+        "config_max_pass",
+        "2048",
+        "num",
+        ""
+    ],
+    "MIN_PASS": [
+        "config_min_pass",
+        "4",
+        "num",
+        ""
+    ],
+    "MAX_POST": [
+        "config_max_post",
+        "500000",
+        "num",
+        ""
+    ],
+    "LONG_LIMIT": [
+        "config_long_limit",
+        "500",
+        "num",
+        ""
+    ],
+    "POSTS_PER_PAGE": [
+        "config_replies_page",
+        "60",
+        "num",
+        ""
+    ],
+    "TOPICS_PER_PAGE": [
+        "config_topic_page",
+        "30",
+        "num",
+        ""
+    ],
+    "ANON_LABEL": [
+        "config_anon_label",
+        "Anonymous",
+        "text",
+        ""
+    ],
+    "AVATAR_LIMIT": [
+        "config_avatar_gallery",
+        "20",
+        "num",
+        ""
+    ],
+    "DATE_NICE": [
+        "config_friendly_date",
+        "F d, Y",
+        "text",
+        ""
+    ],
+    "SERVED_EXP": [
+        "config_served_exp",
+        "1",
+        "num",
+        "days"
+    ],
+    "SERVED_LAST": [
+        "config_last_served",
+        1480968960,
+        "text",
+        "datetime"
+    ],
+    "SESSION_EXP": [
+        "config_session_refresh",
+        "300",
+        "num",
+        "seconds"
+    ],
+    "COOKIE_EXP": [
+        "config_cookie_exp",
+        "1",
+        "num",
+        "days"
+    ],
+    "COOKIE_PATH": [
+        "config_cookie_path",
+        "/",
+        "text",
+        ""
+    ],
+    "CACHE_TIME": [
+        "config_cache_time",
+        "1",
+        "num",
+        "days"
+    ],
+    "FORCE_TLS": [
+        "config_force_tls",
+        "0",
+        "bool",
+        ""
+    ]
+}
